@@ -9,4 +9,4 @@ print("Total bill amount is: $" + str(total_bill))
 split_bill = total_bill / people # finding the split bill amount
 split_bill = round(split_bill, 2) # Added rounding to split _bill  
 split_bill = "{:.2f}".format(split_bill) #Added formatting to split_bill to show hundredths place
-print("Each person should pay: $" + str(split_bill))
+print(f"Each person should pay: ${split_bill}")
